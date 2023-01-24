@@ -135,6 +135,80 @@ nav {
     color: var(--color-font-medium);
 }
 
+.projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.projects-box {
+    width: calc(25% - 10px);
+    border: 1px solid var(--color-font-light);
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-font-dark);
+    margin: 10px 5px;
+}
+
+.projects-box img {
+    width: 100%;
+    height: auto;
+}
+
+.projects-box h1 {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.projects-box a {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin: 3px 0;
+    border-radius: 3px;
+}
+
+.projects-box .demo {
+    background-color: var(--color-font-medium);
+}
+
+.projects-box .code {
+    background-color: var(--color-font-dark);
+}
+
+.github-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.github-link a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 5px 40px;
+    background-color: var(--color-font-dark);
+    border-radius: 3px;
+}
+
 .about-info {
     display: flex;
     padding: 40px;
@@ -243,14 +317,6 @@ nav {
     margin: 10px 5px;
 }
 
-.projects {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .contact {
     width: 100%;
     height: auto;
@@ -342,6 +408,10 @@ footer span {
 }
 
 @media (max-width: 1024px) {
+    .projects-box {
+        width: calc(33.33% - 10px);
+    }
+
     .skills-box {
         width: calc(50% - 20px);
     }
@@ -357,7 +427,7 @@ footer span {
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 80px;
+        height: 60px;
         background-color: white;
         position: fixed;
         bottom: 0;
@@ -389,6 +459,10 @@ footer span {
         width: 20px;
         height: auto;
         margin-bottom: 5px;
+    }
+
+    .projects-box {
+        width: calc(50% - 10px);
     }
 
     .about-info {
@@ -442,11 +516,32 @@ footer span {
         font-size: 1.6em;
     }
 
+    .projects-box {
+        width: calc(100% - 10px);
+    }
+
     .section-container {
-        padding: 5px;
+        padding: 3px;
+    }
+
+    .about-info {
+        padding: 20px;
+    }
+
+    .skills-info {
+        padding: 10px;
     }
 
     .skills-box {
         width: calc(100% - 20px);
+    }
+
+    .form-box p {
+        padding: 20px;
+    }
+
+    form {
+        width: calc(100% - 40px);
+        margin: 20px;
     }
 }
