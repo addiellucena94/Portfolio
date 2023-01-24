@@ -573,4 +573,8 @@ footer span {
         width: calc(100% - 40px);
         margin: 20px;
     }
+
+    .section-container {
+        padding: 10px;
+    }
 }
