@@ -516,6 +516,10 @@ footer span {
         font-size: 1.6em;
     }
 
+    .projects-info {
+        padding: 10px 0;
+    }
+
     .projects-box {
         width: calc(100% - 10px);
     }
