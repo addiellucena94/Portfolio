@@ -501,7 +501,6 @@ footer span {
 @media (max-width: 640px) {
     .home {
         padding: 10px;
-        height: 60vh;
     }
 
     .home-container {
