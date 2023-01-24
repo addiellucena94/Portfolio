@@ -523,10 +523,6 @@ footer span {
         width: calc(100% - 10px);
     }
 
-    .section-container {
-        padding: 3px;
-    }
-
     .about-info {
         padding: 20px;
     }
