@@ -26,6 +26,16 @@ header {
     justify-content: center;
     position: fixed;
     background-color: white;
+    animation: desc 0.3s linear;
+}
+
+@keyframes desc {
+    0% {
+        top: -56px;
+    }
+    100% {
+        top: 0px;
+    }
 }
 
 .header-container {
@@ -87,6 +97,16 @@ nav {
     max-width: 1536px;
     border-left: 5px solid var(--color-font-dark);
     padding-left: 20px;
+    animation: show 1.2s linear;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .home-container h1 {
@@ -94,6 +114,16 @@ nav {
     font-weight: lighter;
     font-size: 44px;
     margin: 0;
+    animation: cascade linear 1.2s;
+}
+
+@keyframes cascade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .home-container h1 span {
