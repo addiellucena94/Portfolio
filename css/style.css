@@ -382,11 +382,11 @@ footer span {
         text-decoration: none;
         color: var(--color-font-dark);
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .nav-bar div a img {
-        width: 24px;
+        width: 20px;
         height: auto;
         margin-bottom: 5px;
     }
@@ -427,7 +427,7 @@ footer span {
 @media (max-width: 640px) {
     .home {
         padding: 10px;
-        height: 50vh;
+        height: 60vh;
     }
 
     .home-container {
@@ -435,11 +435,11 @@ footer span {
     }
 
     .home-container h1 {
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
 
     .home-container h1 span {
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
 
     .section-container {
