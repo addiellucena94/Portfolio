@@ -425,6 +425,23 @@ footer span {
 }
 
 @media (max-width: 640px) {
+    .home {
+        padding: 10px;
+        height: 50vh;
+    }
+
+    .home-container {
+        padding-left: 10px;
+    }
+
+    .home-container h1 {
+        font-size: 1.2em;
+    }
+
+    .home-container h1 span {
+        font-size: 1.2em;
+    }
+
     .section-container {
         padding: 5px;
     }
